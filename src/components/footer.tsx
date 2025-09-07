@@ -99,8 +99,9 @@ function Footer() {
       <div>
 
       <div className="flex col-span-2 gap-6">
-        <span className="cursor-pointer">Kapee © 2025 by PressLayouts All Rights Reserved.</span>
-        <span className="cursor-pointer"></span>
+        <span className="">Kapee © 2025 by PressLayouts All Rights Reserved.</span>
+        <span className="ml-auto"><img src="https://kapee.presslayouts.com/wp-content/themes/kapee/assets/images/payments-method.png" alt="" />
+        </span>
     </div>
     </div>
     </div>

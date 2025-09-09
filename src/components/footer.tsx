@@ -52,7 +52,7 @@ function Footer() {
           <h3 className="font-bold text-lg mb-2">INFORMATION</h3>
           <ul className="space-y-1">
             <li><a href="#" className="hover:text-yellow-500">Store Location</a></li>
-            <li><a href="#" className="hover:text-yellow-500">Contact Us</a></li>
+            <li><a href="/contact" className="hover:text-yellow-500">Contact Us</a></li>
             <li><a href="#" className="hover:text-yellow-500">Shipping & Delivery</a></li>
             <li><a href="#" className="hover:text-yellow-500">Latest News</a></li>
             <li><a href="#" className="hover:text-yellow-500">Our Sitemap</a></li>

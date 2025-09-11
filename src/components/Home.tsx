@@ -129,7 +129,103 @@ const HomePage: React.FC = () => {
         {/* Hero */}
         <div className="flex-1 bg-gradient-to-br from-blue-50 to-white flex items-center justify-center">
           <h1 className="text-5xl font-bold">Welcome to Home</h1>
-          
+          {/* -------------Speaker and watch---------------------*/}
+    <section className="">
+      <div className="container mx-auto grid grid-cols-2 gap-4 bg-gray-100 p-6">
+      {/*Column 1 */}
+      <div>
+        <div className="flex-1 bg-gradient-to-br from-blue-50 to-white">
+          <div className="relative h-96 flex items-center justify-between px-12">
+            {/* Content Section */}
+            <div className="flex-1 max-w-lg">
+              <div className="mb-4">
+                <span className="text-yellow-500 font-bold text-lg tracking-wide">
+                  DIGITAL SMART
+                </span>
+              </div>
+              
+              <h1 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                WIRELESS SPEAKER<br />
+              </h1>
+              
+              <p className="text-2xl text-gray-700 mb-8 font-medium">
+                Min. 30-70% Off
+              </p>
+              
+              <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-8 py-4 font-bold text-lg transition-colors hover:transform hover:scale-105 duration-200">
+                BUY NOW
+              </button>
+            </div>
+
+            {/* Headphones Image Section */}
+            <div className="flex-1 flex justify-center items-center relative">
+              <div className="relative">
+                {/* Headphones Representation */}
+               <div className="relative z-10 w-80 h-80 flex items-center justify-center">
+                <img src="../electronics-banner-1.jpg"
+              alt="Headphones"
+              className="w-96 ml-10"/> 
+                </div>
+
+                {/* Floating Elements */}
+                <div className="absolute top-10 right-10 w-4 h-4 bg-yellow-400 rounded-full animate-bounce delay-100"></div>
+                <div className="absolute bottom-20 left-10 w-3 h-3 bg-blue-400 rounded-full animate-bounce delay-300"></div>
+                <div className="absolute top-32 left-20 w-2 h-2 bg-yellow-300 rounded-full animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    {/* Column 2 */}
+
+      <div>
+        <div className="flex-1 bg-gradient-to-br from-blue-50 to-white">
+          <div className="relative h-96 flex items-center justify-between px-12">
+            {/* Content Section */}
+            <div className="flex-1 max-w-lg">
+              <div className="mb-4">
+                <span className="text-yellow-500 font-bold text-lg tracking-wide">
+                  DIGITAL SMART
+                </span>
+              </div>
+              
+              <h1 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                WATCH CHARGER<br />
+              </h1>
+              
+              <p className="text-2xl text-gray-700 mb-8 font-medium">
+                UP TO 70% Off
+              </p>
+              
+              <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-8 py-4 font-bold text-lg transition-colors hover:transform hover:scale-105 duration-200">
+                BUY NOW
+              </button>
+            </div>
+
+            {/* Headphones Image Section */}
+            <div className="flex-1 flex justify-light items-right relative">
+              <div className="relative">
+                {/* Headphones Representation */}
+               <div className="relative z-10 w-80 h-80 flex items-center justify-center">
+                <img src="../electronics-banner-2.jpg"
+              alt="Headphones"
+              className="w-96 ml-10"/> 
+                </div>
+
+                {/* Floating Elements */}
+                <div className="absolute top-10 right-10 w-4 h-4 bg-yellow-400 rounded-full animate-bounce delay-100"></div>
+                <div className="absolute bottom-20 left-10 w-3 h-3 bg-blue-400 rounded-full animate-bounce delay-300"></div>
+                <div className="absolute top-32 left-20 w-2 h-2 bg-yellow-300 rounded-full animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+{/** ---------------------------------------------------- */}
         </div>
          
       </div>
